@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+# Webserver
+gem 'thin', '~> 1.7.0'
+
+# Sinatra DSL
+gem 'sinatra', '~> 1.4.7'
+gem 'sinatra-contrib'
+
+# Kafka lib
+gem 'kazoo-ruby', '~> 0.5.4'
+
+group :development do
+  gem 'pry'
+  gem 'pry-byebug'
+end

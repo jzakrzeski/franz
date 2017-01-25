@@ -1,0 +1,6 @@
+version: '2'
+services:
+  franz:
+    restart: 'always'
+    stdin_open: true
+    tty: true
